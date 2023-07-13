@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background: hsl(217, 54%, 11%);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 35rem;
+  background: hsl(216, 50%, 16%);
+  position: relative;
+}
+
+.image {
+  width: 18rem;
+  height: 18rem;
+}
+.image img {
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  margin: 0 1rem;
+  float: left;
+  color: white;
+  text-align: left;
+}
+.details .desc {
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.devider {
+  width: 100%;
+  height: 1px;
+  border-radius: 50px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: hsl(215, 32%, 27%);
+}
+
+.userInfo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.userInfo img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+.userInfo .head {
+  color: hsl(215, 51%, 70%);
+  font-weight: 100;
+}
+.userInfo .myName {
+  color: white;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon img {
+  margin-right: 5px;
+}
+
+.icon:first-child span {
+  color: hsl(178, 100%, 50%);
+}
+
+.icon:last-child span {
+  color: hsl(215, 51%, 70%);
+  font-weight: 100;
+}
+
+.image:active {
+  background: rgb(0, 255, 255);
+  overflow: hidden;
+}
+
+.details .title:active {
+  color: hsl(178, 100%, 50%);
+}
+.details .userInfo .myName :active {
+  color: hsl(178, 100%, 50%);
+}/*# sourceMappingURL=style.css.map */
